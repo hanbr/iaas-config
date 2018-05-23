@@ -12,13 +12,13 @@ spring:
   redis:
     remote: false        #cachecloud 获取
     host: 127.0.0.1
-    port: 6381
-    password:
+    port: 6379
+    password:redis
   rabbitmq:
     host: 127.0.0.1
-    port: 5682
-    username: pig
-    password: lengleng
+    port: 15672
+    username: admin
+    password: 111111
   http:
     multipart:
       max-file-size: 1000MB
